@@ -21,10 +21,10 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Authentication
-consumerKey = '7UAS2cLvFKueOz7lsMB6MHvF8'
-consumerSecret = 'JhFGroAGi1RI2buJc3z3Krhai9hdKqDBxo0SM1s87nxc6K7fG1'
-accessToken = '1505927196938227712-VCBLTFslvXj0CxBLVKarcNp78nt5S2'
-accessTokenSecret = 'sqt90y248k48izPNmJExeGDbZY67a0fsa3bDDMXKDkLZ5'
+consumerKey = 'conumerkey'
+consumerSecret = 'conumerseacretkey'
+accessToken = 'accessToken'
+accessTokenSecret = 'accessTokenSeacret'
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(auth)
@@ -94,6 +94,3 @@ tweet_list.drop_duplicates(inplace = True)
 tw_list = pd.DataFrame(tweet_list)
 tw_list["text"] = tw_list[0]
 tw_list
-
-pd.
-
