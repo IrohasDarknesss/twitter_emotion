@@ -21,6 +21,11 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Authentication
+
+# twitter developer site is here ↓
+# https://developer.twitter.com/en
+# please register and get your api key before you analysis twitter.
+
 consumerKey = 'conumerkey'
 consumerSecret = 'conumerseacretkey'
 accessToken = 'accessToken'
